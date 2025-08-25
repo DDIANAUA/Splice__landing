@@ -266,7 +266,7 @@ body._lock {
 }
 // Main-block=======================================
 .main-block {
-	background: url('/img/main-block/bg.jpg') center/cover no-repeat;
+	background: url('../img/main-block/bg.jpg') center/cover no-repeat;
 	padding-block: 140px 214px;
 }
 .main-block__container {
@@ -322,7 +322,10 @@ body._lock {
 @media (max-width: 768px) {
 	.main-block {
 		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url('/img/main-block/bg.jpg') center/cover no-repeat;
+			url('../img/main-block/bg.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 }
 @media (max-width: 426px) {
@@ -501,7 +504,7 @@ body._lock {
 }
 // Try=================================
 .try {
-	background: url('/img/try/bg.jpg') center / cover no-repeat;
+	background: url('../img/try/bg.jpg') center / cover no-repeat;
 	padding-block: 288px;
 }
 .try__container {
